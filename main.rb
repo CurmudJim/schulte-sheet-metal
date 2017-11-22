@@ -31,11 +31,11 @@ get '/contact' do
   erb :contact
 end
 
-post '/contact' do
-  send_message
-  # flash[:notice] = "Thank you for contacting us. We'll be in touch soon."
-  # redirect to('/')
-end
+# post '/contact' do
+#   send_message
+#   # flash[:notice] = "Thank you for contacting us. We'll be in touch soon."
+#   # redirect to('/')
+# end
 
 not_found do
   erb :not_found
